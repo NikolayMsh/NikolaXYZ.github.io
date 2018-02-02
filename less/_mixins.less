@@ -1,0 +1,12 @@
+.clearfix{
+	&:after{
+		content: '';
+		display: block;
+		clear: both;
+	}	
+}
+.media(@size, @rules){
+	@media (max-width: @size){
+		@rules();
+	}
+}
