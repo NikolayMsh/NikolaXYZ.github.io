@@ -439,7 +439,7 @@ h6 {
 }
 .header .leftText {
   font-size: 12px;
-  line-height: 80px;
+  line-height: 30px;
   float: left;
   padding-left: 160px;
   background: url('../img/logo.png') no-repeat left 15px;
